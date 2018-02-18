@@ -14,7 +14,6 @@ body{
 .side-nav li>a:hover{
   background-color:#00acc1 ;
 }
-
 a .menu {
   border: 3px solid #00acc1;
   border-radius: 5px;
@@ -57,7 +56,7 @@ a .menu {
   background: #fff;
 }
 .contac{
-  background: url(../assets/images/fondo-2.png) no-repeat center center;
+  background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)), url(../assets/images/fondo-2.jpg) no-repeat center center;
   background-size: cover;
 }
 .rombo {
@@ -88,7 +87,6 @@ a .menu {
   display: inline-block;
   font-size: 100px;
   margin: 15px;
-  
 }
 @media only screen and (max-width: 768px){
   h1{
@@ -119,6 +117,12 @@ a .menu {
  .skill{
   padding:0px;
 }
+.project .vh-100{
+  height: auto;
+}
+.ok .valign-wrapper{
+  display: block;
+}
 }
 .animated{
   opacity: 0.5;
@@ -126,5 +130,60 @@ a .menu {
 .project{
   background: linear-gradient(rgba(0, 0, 0, 0.666), rgba(0, 0, 0, 0.585)),url(../assets/images/project-background.jpg) no-repeat center center;
   background-size: cover;
-  
 }
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+.scroll-down {
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+
