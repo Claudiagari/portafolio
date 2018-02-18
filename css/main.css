@@ -12,10 +12,10 @@ body{
   color: #fff;
 }
 .side-nav li>a:hover{
-  background-color:#ff3d00 ;
+  background-color:#00acc1 ;
 }
 a .menu {
-  color:#ff3d00;
+  color:#00acc1;
   position: fixed;
 }
 .intro{
@@ -26,11 +26,12 @@ a .menu {
   font-family: 'Muli', sans-serif;
 }
 .fa-hand-peace{
-  color:#ff3d00;
+  color:#00acc1;
 }
 .about{
   background: #E4EBEE;
 }
+
 @media only screen and (min-width: 1200px){
 .about p{
   font-size: 20px;
@@ -38,20 +39,8 @@ a .menu {
   text-justify: inter-word;
 }
 }
-progress[value] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: none;
-  width: 350px;
-  height: 20px;
-  color: #ff3d00;
-  }
-progress::-moz-progress-bar { 
-  background: #ff3d00; 
-}
-progress::-webkit-progress-value { 
-  background: #ff3d00;
+.skill{
+  padding: 30px;
 }
 .skill-lb{
   background: #fff;
@@ -90,6 +79,12 @@ progress::-webkit-progress-value {
 .contac a i{
   color: #fff;
 }
+.skills-tools{
+  display: inline-block;
+  font-size: 80px;
+  margin: 15px;
+  
+}
 @media only screen and (max-width: 768px){
   h1{
    font-size: 2.5em;
@@ -112,4 +107,11 @@ progress::-webkit-progress-value {
  .phone-about{
    display:block;
  }
+ .skills-tools{
+   font-size:45px;
+   margin-top:15px
+ }
+ .skill{
+  padding:0px;
+}
 }
