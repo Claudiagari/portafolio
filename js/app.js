@@ -11,3 +11,12 @@ $(document).ready(function() {
 
   $('#nav').onePageNav();
 });
+
+
+var options = [ {selector: '#profile-img', 
+  offset: 500,
+  callback: function(el) {
+    Materialize.fadeInImage($(el)); 
+  } } ]; 
+Materialize.scrollFire(options);
+$('.block').smoove({offset:'40%'});

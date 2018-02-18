@@ -46,7 +46,7 @@
         <div class="row">
           <div class="col s12 l12 center-align">
             <i class="far fa-hand-peace fa-7x"></i>
-            <h2 class="white-text text-white">Hola, soy Claudia Garibotto</h2>
+            <h2 id="name" class="white-text text-white">Hola, soy Claudia Garibotto</h2>
             <h1 class="muli white-text text-white">Front-end
               <br>Developer</h1>
           </div>
@@ -67,8 +67,8 @@
               me brinda Laboratoria he podido darme cuenta que el código es lo mio, ya que a través de la tecnología podemos
               construir aplicaciones que solucionen problemas a nivel social, corporativo y medio ambiental.</p>
           </div>
-          <div class="offset-s3 col s6 offset-s3 l4">
-            <img class="circle responsive-img" src="assets/images/ClaudiaGaribotto.jpg" alt="">
+          <div class="offset-s3 col s6 offset-s3 l4 block">
+            <img class="circle responsive-img " id="profile-img" src="assets/images/ClaudiaGaribotto.jpg" alt="">
           </div>
         </div>
       </div>
@@ -91,14 +91,14 @@
             <br>
             <strong>JAVASCRIPT</strong>
           </div>
-          <div class="col s3 l2 center-align">
+          <div class="col s3 l2 center-align ">
             <span class="icon-jquery skills-tools"></span>
             <br>
             <strong>JQUERY</strong>
           </div>
         </div>
         <div class="row center-align">
-          <div class="col offset-s3 s6 offset-s3 offset-l4 l4 offset-l4 offset-xl5 xl2 offset-xl5">
+          <div class="col offset-s3 s6 offset-s3 offset-l4 l4 offset-l4 offset-xl5 xl2 offset-xl5 block" data-scale="0.2">
             <h2 class="muli black-text text-black">Skills</h2>
             <img class="responsive-img" src="assets/images/animated.gif" alt="">
           </div>
@@ -114,7 +114,7 @@
             <br>
             <strong>GIT</strong>
           </div>
-          <div class="col s3 offset-l4 l2 center-align">
+          <div class="col s3 offset-l4 l2 center-align " >
             <span class="icon-github skills-tools"></span>
             <br>
             <strong>GITHUB</strong>
@@ -131,55 +131,197 @@
           </div>
         </div>
         <div class="row center-align">
-          <div class="offset-l2 offset-s2 col s2 l2 offset-xl2 xl2">
+          <div class="offset-l2  col s3 l2 offset-xl2 xl2">
             <img class="circle responsive-img skill-lb" src="assets/images/agile.png" alt="">
           </div>
-          <div class="col s2 l2 xl2">
+          <div class="col s3 l2 xl2">
             <img class="circle responsive-img skill-lb" src="assets/images/squad.png" alt="">
           </div>
-          <div class="col s2 l2 xl2">
+          <div class="col s3 l2 xl2">
             <img class="circle responsive-img skill-lb" src="assets/images/top5.png" alt="">
           </div>
-          <div class="col s2 l2 xl2 ">
+          <div class="col s3 l2 xl2 ">
             <img class="circle responsive-img skill-lb" src="assets/images/unicorn.png" alt="">
           </div>
         </div>
       </div>
     </section>
-    <section id="project" class="project vh-100 valign-wrapper">
+    <section id="project" class="project valign-wrapper">
       <div class="container">
         <div class="row">
           <div class="col s12 l12 center-align">
-            <h2 class="muli black-text text-black">Proyectos</h2>
+            <h2 class="muli white-text text-white">Proyectos</h2>
           </div>
         </div>
         <div class="row center-align">
-          <div class="col s4 offset-l1 l2  offset-l1">
-            <a href="#">
-              <img class="responsive-img" src="assets/images/proyecto-1.png" alt="">
-            </a>
+          <div class="col s12 l4">
+            <div class="card sticky-action ">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/images/proyecto4.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">LabCar
+                  <i class="material-icons right">more</i>
+                </span>
+              </div>
+              <div class="card-action">
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Demo</strong>
+                </a>
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Código</strong>
+                </a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">LabCar
+                  <i class="material-icons right">close</i>
+                </span>
+                <p>Esta aplicación esta diseñada para facilitar a las personas el uso transporte personal. Su característica
+                  principal es la ubicación de conductores y el trazo de rutas.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col s4 offset-l2 l2  offset-l1">
-            <a href="#">
-              <img class="responsive-img" src="assets/images/proyecto-2.png" alt="">
-            </a>
+          <div class="col s12 l4 block" data-move-y="200px" data-move-x="-200px">
+            <div class="card sticky-action ">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/images/proyecto1.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Movie Station
+                  <i class="material-icons right">more</i>
+                </span>
+              </div>
+              <div class="card-action">
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Demo</strong>
+                </a>
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Código</strong>
+                </a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Movie Station
+                  <i class="material-icons right">close</i>
+                </span>
+                <p> Este proyecto tiene como objetivo hacer consultas de la base de datos OMDb (Peliculas y Series) con la finalidad
+                  de crear listas de películas favoritas.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col s4 offset-l2 l2  offset-l1">
-            <a href="#">
-              <img class="responsive-img" src="assets/images/proyecto-3.png" alt="">
-            </a>
+          <div class="col s12 l4 block" data-move-y="200px" data-move-x="-200px">
+            <div class="card sticky-action ">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/images/proyecto3.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Red social Jaku
+                  <i class="material-icons right">more</i>
+                </span>
+              </div>
+              <div class="card-action">
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Demo</strong>
+                </a>
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Código</strong>
+                </a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Red social Jaku
+                  <i class="material-icons right">close</i>
+                </span>
+                <p>Jaku es una red social diseñada para personas que estén interesadas en realizar deportes. Este proyecto se
+                  desarrollo con Jquery, Materialize, CSS, Javascript y Firebase como plataforma para la base de datos no
+                  relacional y autenticación.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="row center-align">
-          <div class="col s4 offset-l3 l2  offset-l1">
-            <a href="#">
-              <img class="responsive-img" src="assets/images/proyecto-4.png" alt="">
-            </a>
+          <div class="col s12 l4 block" data-move-y="200px" data-move-x="-200px">
+            <div class="card sticky-action ">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/images/proyecto2.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Weather
+                  <i class="material-icons right">more</i>
+                </span>
+              </div>
+              <div class="card-action">
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Demo</strong>
+                </a>
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Código</strong>
+                </a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Weather
+                  <i class="material-icons right">close</i>
+                </span>
+                <p>Aplicación web responsiva desarrollada con Jquery, Node.Js y CSS. Consume un API de pronostico de clima y
+                  muestra los resultados basados en una búsqueda.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col s4 offset-l2 l2  offset-l1">
-            <a href="#">
-              <img class="responsive-img" src="assets/images/proyecto-5.png" alt="">
-            </a>
+          <div class="col s12 l4 block" data-move-y="200px" data-move-x="-200px">
+            <div class="card sticky-action ">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/images/proyecto5.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Trello
+                  <i class="material-icons right">more</i>
+                </span>
+              </div>
+              <div class="card-action">
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Demo</strong>
+                </a>
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Código</strong>
+                </a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Trello
+                  <i class="material-icons right">close</i>
+                </span>
+                <p>Replica de la herramienta para organizar tareas Trello, con la cual se empezo a manipular el DOM con Javascript.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l4 block" data-move-y="200px" data-move-x="-200px">
+            <div class="card sticky-action ">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/images/proyecto6.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Lyft
+                  <i class="material-icons right">more</i>
+                </span>
+              </div>
+              <div class="card-action">
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Demo</strong>
+                </a>
+                <a href="#" class="cyan-text text-darken-4">
+                  <strong>Código</strong>
+                </a>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Lyft
+                  <i class="material-icons right">close</i>
+                </span>
+                <p>Trabajando con Html5 y Css3 se llego a realizar el modelo de la conocida pagina de Lyft.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -197,16 +339,24 @@
               <i class="fas fa-envelope"></i>
             </div>
           </div>
-          <div class="col s9 l5 left-align">
-            <h5 class="white-text text-white">claudia.garibotto@gmail.com</h5>
+          <div class="col s9 l3 left-align">
+            <p class="white-text text-white">claudia.garibotto@gmail.com</p>
           </div>
           <div class="col s2 l1 center-align">
             <div class="rombo">
               <i class="fas fa-phone"></i>
             </div>
           </div>
-          <div class="col s10 l5 left-align">
-            <h5 class="white-text text-white phone">+ 51 994 - 551 - 635</h5>
+          <div class="col s10 l3 left-align">
+            <p class="white-text text-white phone">+ 51 994 - 551 - 635</p>
+          </div>
+          <div class="col s2 l1 center-align">
+            <div class="rombo">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+          </div>
+          <div class="col s10 l3 left-align">
+            <p class="white-text text-white">Lima, Perú</p>
           </div>
         </div>
         <div class="row center-align">
@@ -214,17 +364,30 @@
             <a href="http://">
               <i class="fab fa-github-square fa-5x"></i>
             </a>
+          </div>
+        </div>
+        <div class="row center-align">
+          <div class="col s12 l12">
             <a href="http://">
               <i class="fab fa-linkedin fa-5x"></i>
             </a>
           </div>
         </div>
+        <div class="row center-align">
+            <div class="col s12 l12">
+              <a href="http://">
+                <i class="fas fa-download fa-5x"></i>
+              </a>
+            </div>
+          </div>
       </div>
     </section>
   </main>
   <script src="vendors/jquery/jquery.min.js"></script>
   <script src="vendors/materialize/js/materialize.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>
+  <script src="vendors/jquery/jquery.smoove.min.js"></script>
+   
   <script src="js/app.js"></script>
 </body>
 

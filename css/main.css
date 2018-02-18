@@ -14,9 +14,14 @@ body{
 .side-nav li>a:hover{
   background-color:#00acc1 ;
 }
+
 a .menu {
+  border: 3px solid #00acc1;
+  border-radius: 5px;
   color:#00acc1;
   position: fixed;
+  background:  #006064;
+  margin-top: 10px;
 }
 .intro{
   background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)),url(../assets/images/fondo.jpg) no-repeat center center;
@@ -29,7 +34,7 @@ a .menu {
   color:#00acc1;
 }
 .about{
-  background: #E4EBEE;
+  background: #e0f7fa;
 }
 
 @media only screen and (min-width: 1200px){
@@ -81,7 +86,7 @@ a .menu {
 }
 .skills-tools{
   display: inline-block;
-  font-size: 80px;
+  font-size: 100px;
   margin: 15px;
   
 }
@@ -114,4 +119,12 @@ a .menu {
  .skill{
   padding:0px;
 }
+}
+.animated{
+  opacity: 0.5;
+}
+.project{
+  background: linear-gradient(rgba(0, 0, 0, 0.666), rgba(0, 0, 0, 0.585)),url(../assets/images/project-background.jpg) no-repeat center center;
+  background-size: cover;
+  
 }
