@@ -44,7 +44,7 @@ a .menu {
 }
 }
 .skill{
-  padding: 30px;
+  padding:30px 30px 42px 30px;
 }
 .skill-lb{
   background: #fff;
@@ -55,9 +55,18 @@ a .menu {
 .project {
   background: #fff;
 }
+.project h2{
+  margin-top:75px;
+}
+.project .project-info{
+  padding-top: 55px;
+}
 .contac{
   background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)), url(../assets/images/fondo-2.jpg) no-repeat center center;
   background-size: cover;
+}
+#contac-me{
+  margin-bottom: 50px;
 }
 .rombo {
   width: 60px; 
