@@ -136,6 +136,9 @@ a .menu {
   display: block;
   
 }
+.contac .vh-100{
+  height: auto;
+}
 
 }
 .animated{
@@ -201,5 +204,11 @@ a .menu {
 }
 .more{
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 992px){
+.vh-100{
+  height: auto;
+}
 }
 
