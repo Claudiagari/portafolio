@@ -21,9 +21,10 @@ a .menu {
   position: fixed;
   background:  #006064;
   margin-top: 10px;
+  z-index: 1000;
 }
 .intro{
-  background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)),url(../assets/images/fondo.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)),url(../assets/images/fondo.jpeg) no-repeat center center;
   background-size: cover;
 }
 .muli{
@@ -62,7 +63,7 @@ a .menu {
   padding-top: 55px;
 }
 .contac{
-  background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)), url(../assets/images/fondo-2.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, 0.653)), url(../assets/images/fondo-2.jpeg) no-repeat center center;
   background-size: cover;
 }
 #contac-me{
@@ -206,9 +207,9 @@ a .menu {
   margin-top: 50px;
 }
 
-@media only screen and (max-width: 992px){
+@media (min-width: 769px) and (max-width: 1024px){
 .vh-100{
-  height: auto;
+  height: 60vh;
 }
 }
 
