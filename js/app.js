@@ -22,19 +22,17 @@ $(function() {
     $('html, body').animate({scrollTop: $('.ok').offset().top }, 'slow');
     return false;
   });
- 
-});
-var mediaquery = window.matchMedia('(max-width: 768px)');
-var moveY=  $('.data-remove').data('move-y')
-if (mediaquery.matches) {
+  var mediaquery = window.matchMedia('(max-width: 768px)');
+  var moveY = $('.data-remove').data('move-y');
+  if (mediaquery.matches) {
+    $('.data-remove').removeAttr('data-rotate-x');
 
-  $('.data-remove').removeAttr('data-rotate-x');
-
-  $('.data-remove').removeAttr('data-rotate-z');
-  $('.data-remove').removeAttr('data-rotate-y');
-  $('.data-remove').removeAttr('data-move-y');
-  $('.data-remove').removeAttr('data-move-z');
-  $('.data-remove').removeAttr('data-move-x');
-} else {
+    $('.data-remove').removeAttr('data-rotate-z');
+    $('.data-remove').removeAttr('data-rotate-y');
+    $('.data-remove').removeAttr('data-move-y');
+    $('.data-remove').removeAttr('data-move-z');
+    $('.data-remove').removeAttr('data-move-x');
+  } else {
   // mediaquery no es 600
-}
+  }
+});
