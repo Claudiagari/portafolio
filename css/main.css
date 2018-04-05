@@ -211,4 +211,20 @@ a .menu {
   height: 60vh;
 }
 }
+@media (max-width: 768px){
+  div.row.center-align.vh-100.ok{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+  .skill h2{
+    margin-top: 0px;
+    padding-top: 24px;
+
+  }
+  .skill .last-row{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+  }
+
 

@@ -25,13 +25,14 @@ $(function() {
   var mediaquery = window.matchMedia('(max-width: 768px)');
   var moveY = $('.data-remove').data('move-y');
   if (mediaquery.matches) {
+    $('div').removeClass('block')
     $('.data-remove').removeAttr('data-rotate-x');
-
     $('.data-remove').removeAttr('data-rotate-z');
     $('.data-remove').removeAttr('data-rotate-y');
+    $('.data-remove').removeAttr('data-move-x');
     $('.data-remove').removeAttr('data-move-y');
     $('.data-remove').removeAttr('data-move-z');
-    $('.data-remove').removeAttr('data-move-x');
+    
   } else {
   // mediaquery no es 600
   }
