@@ -212,7 +212,7 @@ a .menu {
 }
 }
 @media (max-width: 768px){
-  div.row.center-align.vh-100.ok{
+  .project-mobile{
     margin-bottom: 0px;
     padding-bottom: 20px;
   }
